@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "bradlc.vscode-tailwindcss",
+        "austenc.tailwind-docs",
+        "bourhaouta.tailwindshades",
+        "wollacebuarque.tailwind-theme",
+        "amimaro.remix-run-snippets",
+        "ovi-ispas.remix-docs",
+        "aseemtaneja.remix-snippets",
+        "pmneo.tsimporter",
+        "yoavbls.pretty-ts-errors"
+    ]
+}

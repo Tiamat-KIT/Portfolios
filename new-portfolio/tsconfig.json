@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    // Bunでの型定義の追加
+    "types": [
+      "bun-types",
+    ],
+    // if TS 5.x+
+    "moduleResolution": "NodeNext",
+    // "allowImportingTsExtensions": true,
+    "module": "NodeNext",
+    "noEmit": true,
+    "moduleDetection": "force",
+    "jsx": "preserve",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/Component/*": [
+        "./src/Component/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+, ".next/types/app/Top/layout.tsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
